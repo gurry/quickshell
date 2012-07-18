@@ -13,4 +13,4 @@ The most useful things are:
 * Apply a transform (a lambda to a file).
 * Apply a transform to text on clipboard. Is often useful while editing code.
 
-It'll really help if you use REPL like [DreamPie](http://dreampie.sourceforge.net/) that supports file path completion.
+It'll really help if you use a REPL like [DreamPie](http://dreampie.sourceforge.net/) that supports file path completion.

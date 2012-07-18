@@ -10,7 +10,7 @@ Quickshell is designed to be used primarily from within a python REPL. Therefore
 The most useful things are:
 
 * List the contents of a directory.
-* Apply a transform (a lambda to a file).
-* Apply a transform to text on clipboard. Is often useful while editing code.
+* Apply a transform (a lambda) to a file.
+* Apply a transform to text on clipboard. This is supremely handy while editing code.
 
 It'll really help if you use a REPL like [DreamPie](http://dreampie.sourceforge.net/) that supports file path completion.

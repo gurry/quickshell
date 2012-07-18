@@ -1,7 +1,7 @@
 quickshell
 ==========
 
-A python module to work with files and the clipboard. Clipboard-related functions work only in Windows. Everything else is cross-platform.
+A python module to manipulate files, directories and the clipboard. Clipboard-related functions work only in Windows. Everything else is cross-platform.
 
 Quickshell is designed to be used primarily from within a python REPL. Therefore all functions names are as short as possible.
 

@@ -164,6 +164,18 @@ def wcn(lines):
         except Exception:
             raise WindowsError("Failed to write to the clipboard.")
 
+def tca(transform_function):
+    ''' Transforms the text on the clipboard by passing it through a transform function. '''
+    ''' The transform function should take a list of strings and return the result as a list of strings. '''
+    if transform_function is not None:
+        wcn(transform_function(rc()))
+
+def tc(filename, transform_func):
+	''' Transforms the text on the clipboard by applying the given transform function to each its line. '''
+	''' The transform function should take a string and return a string after transformation. '''
+	if transform_func is not None:
+            tca(lambda lines: [transform_func(line) for line in lines])
+
    
 def pp(filename):
     ''' Reads the given file and pretty prints it. '''

@@ -7,7 +7,7 @@ Quickshell is designed to be used primarily from within a python REPL. Therefore
 
 ###What all can I do with it?###
 
-The most useful ones are:
+The most useful things are:
 
 * List the contents of a directory.
 * Apply a transform (a lambda to a file).

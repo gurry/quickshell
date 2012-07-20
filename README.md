@@ -10,7 +10,7 @@ You can:
 * Read/write files easily (without all that file object sorcery).
 * Apply a transform -- any, arbitrary Python lambda -- to a file, without having to open it first and then save it.
 * On Windows, apply a transform to any text on clipboard, which can be supremely handy while editing code (Ctrl+C, transform, Ctrl+V). 
-* A few others like these.
+* Do a few more things like these.
 
 ###Anything else?###
 

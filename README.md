@@ -1,16 +1,17 @@
 quickshell
 ==========
 
-A python module to manipulate files, directories and the clipboard. Clipboard-related functions work only in Windows. Everything else is cross-platform.
+A Python module to manipulate files, directories and the clipboard from a Python REPL. Clipboard function is Windows-only. Everything else is cross-platform.
 
-Quickshell is designed to be used primarily from within a python REPL. Therefore all functions names are as short as possible.
+Since Quickshell is designed to be used from a REPL, all functions names are as short as possible.
 
 ###What all can I do with it?###
 
 The most useful things are:
 
-* List the contents of a directory.
-* Apply a transform (a lambda) to a file.
-* Apply a transform to text on clipboard. This is supremely handy while editing code.
+* List the contents of a directory. Use Unix glob patterns.
+* Read/write files easily (without all that file object sorcery).
+* Apply a transform -- any arbitrary Python lambda -- to a file (without having to open it first and then save it).
+* Apply a transform to text on clipboard, something supremely handy while editing code.
 
 It'll really help if you use a REPL like [DreamPie](http://dreampie.sourceforge.net/) that supports file path completion.

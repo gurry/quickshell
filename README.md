@@ -13,6 +13,6 @@ You can:
 
 ###Anything else?###
 
-It'll really help if ...
-* You use a Python shell that supports file path completion, like [DreamPie](http://dreampie.sourceforge.net/).
-* You set up quickshell to be automatically loaded when you start your shel (see [PYTHONSTARTUP](http://docs.python.org/using/cmdline.html#environment-variables) environment variable.)
+It'll really help to ...
+* Set up quickshell so it's automatically loaded when a Python shell starts (see [PYTHONSTARTUP](http://docs.python.org/using/cmdline.html#environment-variables) environment variable.)
+* Use a shell that supports file path completion, like [DreamPie](http://dreampie.sourceforge.net/).

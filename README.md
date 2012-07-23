@@ -14,6 +14,6 @@ You can:
 
 ###Anything else?###
 
-Before you use Quickshell ...
+Before you use Quickshell, you might like to ...
 * Set it up so it loads automatically when your Python shell starts (see [PYTHONSTARTUP](http://docs.python.org/using/cmdline.html#environment-variables) environment variable.)
 * Use a shell that autocompletes file paths, such as [DreamPie](http://dreampie.sourceforge.net/).

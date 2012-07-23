@@ -1,7 +1,7 @@
 Quickshell
 ==========
 
-A Python module to manipulate files, directories and the clipboard from within a Python shell.
+Quickshell is a Python module that lets you quickly and effortlessly manipulate files, directories and the clipboard from within a Python shell.
 
 ###What all can I do with it?###
 

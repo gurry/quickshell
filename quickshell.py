@@ -58,8 +58,9 @@ def rf(filename):
             raise IOError(error.strerror)
         except:
             raise IOError("Reading file failed for unknown reason.")
-        
-        f.close()
+        finally:
+            f.close()
+						
         return lines
     else:
         return []
@@ -81,8 +82,8 @@ def wf(filename, lines, append_newlines = True):
             raise IOError(error.strerror)
         except:
             raise IOError("Writing file failed for unknown reason.")
-
-        f.close()
+        finally:
+            f.close()
 
 def wfn(filename, lines):
     ''' Writes a file with the given lines appending newline characters after each line. '''

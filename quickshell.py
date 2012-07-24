@@ -171,7 +171,7 @@ def tca(transform_function):
     if transform_function is not None:
         wcn(transform_function(rc()))
 
-def tc(filename, transform_func):
+def tc(transform_func):
 	''' Transforms the text on the clipboard by applying the given transform function to each its line. '''
 	''' The transform function should take a string and return a string after transformation. '''
 	if transform_func is not None:

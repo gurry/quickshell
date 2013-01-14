@@ -105,7 +105,7 @@ def tfa(filename, transform_function):
     ''' Transforms the specified file by passing its lines through a transform function. '''
     ''' The transform function should take a list of strings and return the result as a list of strings. '''
     if filename is not None and transform_function is not None:
-        wfn(filename, transform_function(rf(filename)))
+        wf(filename, transform_function(rf(filename)))
 
 def tf(filename, transform_func):
 	''' Transforms a file by applying the given transform function to each its line. '''

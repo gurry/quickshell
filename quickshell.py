@@ -88,12 +88,7 @@ def wf(filename, lines):
 def wfn(filename, lines):
     ''' Writes a file with the given lines appending newline characters after each line. '''
     ''' If a file with the same name already exists, overwrites it.'''    
-    try:
-        wf(filename, [line + '\n' for line in lines])        
-    except IOError as error:
-        raise IOError(error.strerror)
-    except:
-        raise IOError("Writing file failed for unknown reason.")
+    wf(filename, [line + '\n' for line in lines])        
             
 
             

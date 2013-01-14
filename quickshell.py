@@ -66,7 +66,7 @@ def rf(filename):
         return []
 		
 
-def wf(filename, lines, append_newlines = True):
+def wf(filename, lines):
     ''' Writes a file with the given lines. '''
     ''' If a file with the same name already exists, overwrites it.'''
     if filename is not None and lines is not None:

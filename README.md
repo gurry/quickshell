@@ -10,6 +10,6 @@ A few of the things you can do with it are:
 * Apply a transform to any text on clipboard, which can be supremely handy while editing code (Ctrl+C, transform, Ctrl+V). 
 * Cast a few other spells.
 
-####Installation####
-* Clone this repository and add `quickshell.py` to your [PYTHONSTARTUP](http://docs.python.org/2/using/cmdline.html#envvar-PYTHONSTARTUP).
-* (Optionally) install and use a shell that autocompletes file paths, such as [DreamPie](http://dreampie.sourceforge.net/).
+To install, simply clone this repository and add `quickshell.py` to your [PYTHONSTARTUP](http://docs.python.org/2/using/cmdline.html#envvar-PYTHONSTARTUP). 
+
+You might want to use a shell that autocompletes file paths, such as [DreamPie](http://dreampie.sourceforge.net/).
